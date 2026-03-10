@@ -1,0 +1,53 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background-image: url('https://images.unsplash.com/photo-1494481524892-b1bf38423fd1?q=80&w=1170&auto=format&fit=crop');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.navbar-brand{
+    font-weight: 600;
+    font-size: 22px;
+}
+
+.nav-link{
+    font-size: 16px;
+    margin-right: 10px;
+}
+
+.card{
+    border-radius: 12px;
+    border: none;
+}
+
+.card h3{
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+label{
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+
+
+.btn-primary{
+    font-weight: 500;
+    font-size: 16px;
+}
+
+
+#DisplayAns{
+    font-size: 20px;
+    font-weight: 600;
+    color: #ffc107;
+}
+
+
+footer{
+    font-size: 14px;
+}
