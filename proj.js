@@ -21,4 +21,19 @@ function calculateFare() {
     document.getElementById("DisplayAns").innerHTML =
     "Pickup and Dropoff are the same. Fare: ₱0.00";
     return;
+
+}
+
+function registerUser(){
+
+let first = document.getElementById("firstName").value;
+let last = document.getElementById("lastName").value;
+
+if(first === "" || last === ""){
+alert("Please fill out the form.");
+return;
+}
+
+window.location.href = "confirmation.html";
+
 }
