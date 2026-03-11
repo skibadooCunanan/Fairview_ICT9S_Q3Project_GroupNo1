@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Create Account</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body class="d-flex flex-column min-vh-100">
+
+<!-- NAVBAR -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+<div class="container-fluid">
+
+<a class="navbar-brand" href="index.html">🚆 RIDE FINDER</a>
+
+<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+<span class="navbar-toggler-icon"></span>
+</button>
+
+<div class="collapse navbar-collapse" id="mynavbar">
+
+<ul class="navbar-nav me-auto">
+
+<li class="nav-item">
+<a class="nav-link" href="index.html">Home</a>
+</li>
+
+<li class="nav-item">
+<a class="nav-link" href="schedule.html">Schedule</a>
+</li>
+
+<li class="nav-item">
+<a class="nav-link" href="help.html">Help</a>
+</li>
+
+</ul>
+
+<a href="registration.html" class="btn btn-warning">
+Create Account
+</a>
+
+</div>
+</div>
+</nav>
+
+<!-- REGISTRATION FORM -->
+<div class="container my-5 flex-grow-1">
+
+<div class="card p-4 shadow bg-dark text-light">
+
+<h3>Create Account</h3>
+
+<details ontoggle="showInstructions()">
+<summary><u>Instructions</u></summary>
+<p id="instructionMessage"></p>
+</details>
+
+<hr>
+
+<div class="row g-3">
+
+<div class="col-md-6">
+<input type="text" class="form-control" id="firstName" placeholder="First Name">
+</div>
+
+<div class="col-md-6">
+<input type="text" class="form-control" id="lastName" placeholder="Last Name">
+</div>
+
+<div class="col-md-6">
+<input type="email" class="form-control" id="email" placeholder="Email">
+</div>
+
+<div class="col-md-6">
+<input type="tel" class="form-control" id="phone" placeholder="Phone Number">
+</div>
+
+<div class="col-md-6">
+<input type="password" class="form-control" id="password" placeholder="Password">
+</div>
+
+<div class="col-md-6">
+<input type="password" class="form-control" id="confirmPassword" placeholder="Confirm Password">
+</div>
+
+</div>
+
+<button class="btn btn-primary w-100 mt-4" onclick="registerUser()">
+Register
+</button>
+
+<button class="btn btn-info w-100 mt-2" type="reset">
+Clear All
+</button>
+
+</div>
+
+</div>
+
+<!-- FOOTER -->
+<footer class="bg-dark text-white text-center py-3 mt-auto">
+9-SAPPHIRE | DUSTIN CUNANAN-RAPHAEL BUAN | Q3 Project
+</footer>
+
+<script src="proj.js"></script>
+
+</body>
+</html>
